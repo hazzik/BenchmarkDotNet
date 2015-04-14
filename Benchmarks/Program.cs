@@ -25,7 +25,8 @@ namespace Benchmarks
                 new ShiftVsMultiplyCompetition(), 
                 new SelectVsConvertAllCompetition(),
                 new StackFrameCompetition(),
-                new CacheConsciousBinarySearchCompetition()
+                new CacheConsciousBinarySearchCompetition(),
+                new ObjectInstantiationCompetition(), 
             };
 
         private string outputFileName;
